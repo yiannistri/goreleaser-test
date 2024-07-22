@@ -8,10 +8,10 @@ before:
 
 builds:
   - env:
-      - CGO_ENABLED=0
+    - CGO_ENABLED=0
     goos:
       - linux
-     goarch:
+    goarch:
       - amd64
       - arm64
     binary: goreleaser-test
